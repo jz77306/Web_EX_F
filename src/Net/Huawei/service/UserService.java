@@ -1,7 +1,7 @@
-package Net.Huawei.service;
+package service;
 
-import Net.Huawei.Bean.User;
-import Net.Huawei.dao.UserDao;
+import Bean.User;
+import dao.UserDao;
 public class UserService {
 
     private UserDao userDao = new UserDao();

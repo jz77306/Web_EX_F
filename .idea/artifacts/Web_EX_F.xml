@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Web_EX_F</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="Web_EX_F/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Web_EX_F" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

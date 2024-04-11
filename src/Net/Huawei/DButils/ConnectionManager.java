@@ -1,4 +1,4 @@
-package Net.Huawei.DButils;
+package DButils;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

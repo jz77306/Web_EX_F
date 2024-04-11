@@ -1,4 +1,4 @@
-package Net.Huawei.Bean;
+package Bean;
 import java.util.*;
 
 public class User {

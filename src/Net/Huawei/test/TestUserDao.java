@@ -1,7 +1,7 @@
-package Net.Huawei.test;
+package test;
 
-import Net.Huawei.Bean.User;
-import Net.Huawei.dao.UserDao;
+import Bean.User;
+import dao.UserDao;
 import org.junit.Test;
 public class TestUserDao {
     @Test

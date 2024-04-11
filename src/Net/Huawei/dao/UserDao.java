@@ -1,7 +1,7 @@
-package Net.Huawei.dao;
+package dao;
 
-import Net.Huawei.Bean.User;
-import Net.Huawei.DButils.ConnectionManager;
+import Bean.User;
+import DButils.ConnectionManager;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

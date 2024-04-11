@@ -89,7 +89,7 @@
     <h1>Welcome to My Website</h1>
     <h2>Subtitle</h2>
     <div class="buttons-container">
-        <a href="Login.jsp" class="button">Login</a>
+        <a href="Login.jsp" class="button" >Login</a>
         <a href="#" class="button">Register</a>
     </div>
 </div>

@@ -21,6 +21,9 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("UserName");
         String password = request.getParameter("PassWord");
 
+        System.out.println(username);
+        System.out.println(password);
+
         UserService us = new UserService();
         User user = us.Login(username, password);
 

@@ -2,13 +2,22 @@ package service;
 
 import Bean.User;
 import dao.UserDao;
-public class UserService {
+public class UserService
+{
+        private UserDao UD = new UserDao();
 
-    private UserDao userDao = new UserDao();
-
-    public User Login(String UserName, String PassWord)
-    {
-        return userDao.Login(UserName, PassWord);
-    }
+        public User login (String UserName, String PassWord)
+        {
+            User outUser = UD.Login(UserName, PassWord);
+            if(outUser != null)
+            {
+                System.out.println("outUser is not null");
+            }
+            else
+            {
+                System.out.println("outUser is null");
+            }
+            return outUser;
+        }
 
 }

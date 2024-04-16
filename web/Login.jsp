@@ -88,8 +88,8 @@
   <div class="Right">
     <h1>login</h1>
     <form action="login" method="post">
-      <input type="UserName" class="InputItem" placeholder="Your Account">
-      <input type="PassWord" class="InputItem" placeholder="YourPassWord">
+      <input type="UserName" name="UserName", class="InputItem" placeholder="Your Account">
+      <input type="PassWord" name="PassWord" class="InputItem" placeholder="YourPassWord">
       <a href="#" class="ForgetPassword">ForgetPassword</a>
       <button type="submit" class="Btn">Login</button>
     </form>

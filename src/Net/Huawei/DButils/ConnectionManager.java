@@ -1,4 +1,5 @@
 package DButils;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -23,10 +24,8 @@ public class ConnectionManager {
         catch (ClassNotFoundException e)
         {
             e.printStackTrace();
-        }
-        catch (SQLException e)
-        {
-            e.printStackTrace();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
         return Conn;
     }

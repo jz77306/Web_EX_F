@@ -12,6 +12,7 @@ public class UserDao {
     {
         User user = null;
         Connection Conn = ConnectionManager.getConnection();
+
         try
         {
             //创建预制语句对象

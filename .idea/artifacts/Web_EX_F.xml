@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Web_EX_F" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+        </element>
       </element>
     </root>
   </artifact>
